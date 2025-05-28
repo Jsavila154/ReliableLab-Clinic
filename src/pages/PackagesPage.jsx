@@ -15,7 +15,7 @@ const PackageCard = ({ icon: Icon, title, description, price, originalPrice, ite
     }
   }, [controls, isInView]);
 
-  const whatsappNumber = "1234567890"; // Reemplaza con tu número de WhatsApp
+  const whatsappNumber = "573209065503"; // Reemplaza con tu número de WhatsApp
   const whatsappMessage = `Hola, estoy interesado/a en el paquete "${title}" por $${price}. ¿Podrían darme más información?`;
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   
@@ -82,38 +82,74 @@ const PackagesPage = () => {
   const packagesList = [
     {
       icon: ShieldPlus,
-      title: "Chequeo Básico Anual",
-      description: "Ideal para una revisión general de tu salud y detección temprana de posibles problemas.",
-      price: "99",
-      originalPrice: "120",
-      items: ["Hemograma completo", "Perfil lipídico", "Glucosa en ayunas", "Examen general de orina", "Función renal (Creatinina)"]
+      title: "Paquete Salud Básico",
+      description: "Evaluación esencial para monitoreo anual de salud en adultos jóvenes (18-34 años).",
+      price: "152.577",
+      originalPrice: "217.968",
+      items: [
+        "Colesterol total", 
+        "Colesterol HDL", 
+        "Colesterol LDL", 
+        "Triglicéridos", 
+        "Glucosa", 
+        "Hemograma IV", 
+        "Uroanálisis/FFV", 
+        "Prueba de treponema (VDRL)"
+      ]
     },
     {
       icon: HeartPulse,
-      title: "Paquete Salud Cardíaca",
-      description: "Enfocado en la evaluación de factores de riesgo cardiovascular y la salud de tu corazón.",
-      price: "149",
-      originalPrice: "180",
-      items: ["Perfil lipídico completo", "Proteína C Reactiva (PCR)", "Homocisteína", "Glucosa", "Hemoglobina Glicosilada (HbA1c)"]
+      title: "Paquete Salud Plus",
+      description: "Evaluación ampliada con estudios especializados para diagnóstico preventivo.",
+      price: "503.850",
+      originalPrice: "719.786",
+      items: [
+        "Perfil lipídico completo", 
+        "Creatinina", 
+        "Hemograma IV", 
+        "Uroanálisis", 
+        "Prueba VDRL", 
+        "Ecografía testicular Doppler", 
+        "Hepatitis B (HBsAg)", 
+        "VIH 1 y 2", 
+        "TSH (tiroides)"
+      ]
     },
     {
       icon: Activity,
-      title: "Paquete Bienestar Completo",
-      description: "Un chequeo exhaustivo para una visión integral de tu estado de salud general.",
-      price: "249",
-      originalPrice: "300",
-      items: ["Hemograma completo", "Bioquímica sanguínea completa (24 elementos)", "Perfil tiroideo (TSH, T3, T4)", "Vitamina D", "Hierro sérico"]
+      title: "Paquete Salud Premium",
+      description: "Evaluación exhaustiva con tecnología avanzada para análisis integral.",
+      price: "862.560",
+      originalPrice: "1.232.259",
+      items: [
+        "Hemoglobina glicosilada", 
+        "Nitrógeno ureico", 
+        "Vitamina D", 
+        "Radiografía de tórax", 
+        "Ecografía abdominal total", 
+        "Electrocardiograma", 
+        "Perfil tiroideo completo", 
+        "Estudios hepáticos y renales"
+      ]
     },
     {
       icon: Gift,
-      title: "Paquete Pre-Nupcial",
-      description: "Análisis esenciales para parejas que planean un futuro juntos, cuidando su salud.",
-      price: "199",
-      items: ["Grupo sanguíneo y Factor Rh", "VDRL (Sífilis)", "VIH", "Hepatitis B y C", "Biometría hemática"]
+      title: "Chequeo Salud Sexual",
+      description: "Detección de enfermedades de transmisión sexual para vida sexual segura.",
+      price: "278.587",
+      originalPrice: "397.941",
+      items: [
+        "Chlamydia IgM", 
+        "Herpes II IgM", 
+        "Hepatitis B (HBsAg)", 
+        "VIH 1 y 2 anticuerpos", 
+        "Examen directo uretral", 
+        "Serología VDRL"
+      ]
     }
-  ];
+];
 
-  const whatsappNumberContact = "1234567890"; // Reemplaza con tu número de WhatsApp
+  const whatsappNumberContact = "573209065503"; // Reemplaza con tu número de WhatsApp
   const whatsappMessageContact = "Hola, me gustaría información sobre un paquete personalizado.";
   const whatsappLinkContact = `https://wa.me/${whatsappNumberContact}?text=${encodeURIComponent(whatsappMessageContact)}`;
 

@@ -117,21 +117,21 @@ const Contact = () => {
             <ContactInfo 
               icon={MapPin} 
               title="Nuestra Ubicación" 
-              content="Av. Principal 123, Ciudad Médica, CP 12345"
+              content="Carrera #7 52 - 58 Chapinero, sede Bogotá"
               delay={0.1}
             />
             
             <ContactInfo 
               icon={Phone} 
               title="Llámanos" 
-              content="+1 (555) 123-4567 (Principal)\n+1 (555) 987-6543 (Citas)"
+              content="+57 320 906 5503"
               delay={0.2}
             />
             
             <ContactInfo 
               icon={Mail} 
               title="Escríbenos" 
-              content="informes@reliablelab-clinic.com\ncitas@reliablelab-clinic.com"
+              content="reliablelabclinic@gmail.com"
               delay={0.3}
             />
             
@@ -170,7 +170,7 @@ const Contact = () => {
                 <label htmlFor="phone" className="text-sm font-medium text-gray-700">
                   Teléfono (Opcional)
                 </label>
-                <Input id="phone" name="phone" placeholder="Ej: (555) 123-4567" />
+                <Input id="phone" name="phone" placeholder="Ej: 319 2795266" />
               </div>
               
               <div className="space-y-1.5">

@@ -15,7 +15,7 @@ const ServiceItemCard = ({ icon: Icon, title, description, delay, features }) =>
     }
   }, [controls, isInView]);
 
-  const whatsappNumber = "1234567890"; // Reemplaza con tu número de WhatsApp
+  const whatsappNumber = "+573209065503"; // Reemplaza con tu número de WhatsApp
   const whatsappMessage = `Hola, estoy interesado/a en el servicio "${title}". ¿Podrían darme más información?`;
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   
@@ -73,56 +73,96 @@ const ServicesPage = () => {
     }
   }, [pageControls, pageInView]);
 
-  const servicesList = [
+  const servicesList =[
     {
       icon: Droplet,
-      title: "Análisis de Sangre Completos",
-      description: "Evaluaciones exhaustivas de hematología y bioquímica para un panorama completo de tu salud.",
-      features: ["Hemograma completo", "Perfil lipídico", "Glucosa", "Función renal y hepática"]
+      title: "Sangre y Derivados",
+      description: "Muestras sanguíneas procesadas para diversos análisis.",
+      features: [
+        "Sangre total",
+        "Suero",
+        "Plasma",
+        "Glóbulos rojos lavados",
+        "Células mononucleares (PBMC)"
+      ]
     },
     {
       icon: Bacteria,
-      title: "Microbiología Clínica",
-      description: "Detección e identificación de microorganismos patógenos y estudios de sensibilidad a antibióticos.",
-      features: ["Cultivos bacterianos", "Urocultivo", "Coprocultivo", "Pruebas micológicas"]
-    },
-    {
-      icon: Dna,
-      title: "Pruebas Genéticas",
-      description: "Análisis de ADN para predisposición a enfermedades, farmacogenética y estudios de paternidad.",
-      features: ["Paneles de cáncer hereditario", "Pruebas de intolerancia alimentaria", "Estudios de portadores"]
-    },
-    {
-      icon: Heart,
-      title: "Marcadores Cardíacos",
-      description: "Evaluación de enzimas y proteínas clave para el diagnóstico y seguimiento de la salud cardiovascular.",
-      features: ["Troponina", "CK-MB", "Mioglobina", "Péptido natriurético cerebral (BNP)"]
-    },
-    {
-      icon: Stethoscope,
-      title: "Chequeos Preventivos Integrales",
-      description: "Paquetes diseñados para la detección temprana de enfermedades según edad, género y factores de riesgo.",
-      features: ["Chequeo básico", "Chequeo ejecutivo", "Chequeo femenino/masculino"]
-    },
-    {
-      icon: Vial,
-      title: "Perfiles Hormonales",
-      description: "Medición de niveles hormonales para evaluar el funcionamiento endocrino y detectar desequilibrios.",
-      features: ["Perfil tiroideo", "Hormonas sexuales", "Cortisol", "Insulina"]
+      title: "Orina",
+      description: "Diferentes tipos de muestras urinarias para análisis específicos.",
+      features: [
+        "Orina fresca o aleatoria",
+        "Orina de 24 horas",
+        "Orina estéril (para urocultivo)",
+        "Orina de chorro medio"
+      ]
     },
     {
       icon: TestTube,
-      title: "Inmunología y Alergias",
-      description: "Estudios del sistema inmune y detección de anticuerpos específicos para alergias.",
-      features: ["Paneles de alérgenos", "Inmunoglobulinas", "Pruebas de autoinmunidad"]
+      title: "Heces (Materia Fecal)",
+      description: "Muestras fecales para detección de patologías gastrointestinales.",
+      features: [
+        "Muestra simple",
+        "Muestras seriadas (3 días)"
+      ]
+    },
+    {
+      icon: Vial,
+      title: "Secreciones y Fluidos Corporales",
+      description: "Fluidos corporales diversos para estudios especializados.",
+      features: [
+        "Secreción nasal, faríngea, traqueal, bronquial (esputo inducido)",
+        "Secreción vaginal, endocervical, uretral",
+        "Secreción ótica y ocular",
+        "Líquido pleural",
+        "Líquido sinovial (articular)",
+        "Líquido cefalorraquídeo (LCR)",
+        "Líquido peritoneal y pericárdico"
+      ]
     },
     {
       icon: Microscope,
-      title: "Análisis de Orina y Fluidos",
-      description: "Exámenes microscópicos y químicos de orina y otros fluidos corporales.",
-      features: ["Examen general de orina", "Análisis de líquido cefalorraquídeo", "Estudios citológicos"]
+      title: "Tejidos",
+      description: "Muestras de tejido para análisis histopatológico.",
+      features: [
+        "Tejido fresco o en parafina",
+        "Aspirados de médula ósea",
+        "Biopsias cutáneas, hepáticas, renales, tumorales, etc."
+      ]
+    },
+    {
+      icon: Stethoscope,
+      title: "Exudados y Muestras Especiales",
+      description: "Muestras para diagnóstico microbiológico y virológico.",
+      features: [
+        "Exudado de heridas o abscesos",
+        "Exudado genital (para ETS)",
+        "Exudado de lesiones dérmicas o mucosas",
+        "Hisopados nasofaríngeos (COVID-19, influenza, virus respiratorios)"
+      ]
+    },
+    {
+      icon: Heart,
+      title: "Muestras Ginecológicas",
+      description: "Muestras para estudios de fertilidad, ETS y diagnóstico prenatal.",
+      features: [
+        "Células de mucosa oral (bucales)",
+        "Células del cuello uterino (Papanicolau)",
+        "Muestras de amniocentesis o vellosidades coriónicas"
+      ]
+    },
+    {
+      icon: Dna,
+      title: "Muestras Genéticas / Celulares",
+      description: "Muestras para análisis genéticos y moleculares.",
+      features: [
+        "Células de mucosa oral (bucales)",
+        "Células del cuello uterino (Papanicolau)",
+        "Muestras de amniocentesis o vellosidades coriónicas"
+      ]
     }
-  ];
+
+];
 
   return (
     <motion.div

@@ -56,18 +56,18 @@ const AboutUsSection = () => {
   }, [controls, sectionInView]);
 
   const timelineEvents = [
-    { year: "2008", title: "Fundación", description: "Reliablelab-Clinic abre sus puertas con la misión de ofrecer análisis clínicos de alta calidad a la comunidad." },
-    { year: "2012", title: "Expansión Tecnológica", description: "Incorporación de nuevos equipos automatizados para aumentar la capacidad y precisión de los análisis." },
-    { year: "2018", title: "Reconocimiento", description: "Recibimos la certificación ISO 9001 por nuestros altos estándares de calidad y gestión." },
-    { year: "2023", title: "Nuevas Especialidades", description: "Ampliamos nuestra oferta de servicios con análisis genéticos y pruebas especializadas avanzadas." },
+    { year: "2019", title: "Fundación", description: "El proyecto nació como una iniciativa de un grupo de profesionales en ciencias de la salud, biotecnología y gestión sanitaria, quienes compartían una visión común: crear un laboratorio de referencia nacional e internacional que operara bajo los más altos estándares de calidad, seguridad y ética profesional." },
+    { year: "2021", title: "Expansión Tecnológica", description: "Gracias a la capacitación, tuvimos una mejora continua, aumentamos nuestra capacidad, con respecto al recurso humano, elementos a implementar en el laboratorio, junto con la expansión de nuestros servicios." },
+    { year: "2023", title: "Reconocimiento", description: "Nuestro laboratorio ha alcanzado importantes reconocimientos en el sector salud. Hoy, ReliableLab-Clinic se posiciona como un centro de referencia en diagnóstico clínico, sin manejo de contrarreferencia, recibiendo muestras de diversas regiones del país y participando activamente en redes internacionales de control de calidad." },
+    { year: "2025", title: "Presente", description: "Nuestro crecimiento sostenido, compromiso con la innovación, la atención centrada en el paciente, han convertido a ReliableLab-Clinic en un ejemplo de excelencia y liderazgo en el ámbito del laboratorio clínico de alta complejidad." },
   ];
 
   const objectives = [
-    "Garantizar la precisión y fiabilidad en cada resultado.",
-    "Ofrecer un servicio al paciente cálido, eficiente y profesional.",
-    "Mantenernos a la vanguardia tecnológica en equipamiento y metodologías.",
-    "Fomentar la capacitación continua de nuestro personal.",
-    "Contribuir al bienestar de la comunidad a través de diagnósticos oportunos."
+    "Optimizar la calidad de los resultados.",
+    "Optimizar los procesos mediante tecnología y talento humano.",
+    "Cumplir con normativas y estándares de acreditación.",
+    "Mejorar la eficiencia operativa.",
+    "Fortalecer la confianza y satisfacción de los clientes."
   ];
 
   return (
@@ -89,14 +89,17 @@ const AboutUsSection = () => {
             <Briefcase className="h-12 w-12 text-primary mx-auto md:mx-0 mb-4" />
             <h3 className="text-2xl font-semibold text-primary mb-3 text-center md:text-left">Nuestra Misión</h3>
             <p className="text-gray-700 text-center md:text-left">
-              Proporcionar servicios de diagnóstico clínico precisos, confiables y oportunos, utilizando tecnología de vanguardia y un equipo humano altamente calificado, comprometido con la salud y el bienestar de nuestros pacientes.
+              En ReliableLab-Clinic lideramos el diagnóstico clínico de alta complejidad con resultados confiables, precisos y oportunos. Impulsamos decisiones médicas con tecnología avanzada, ciencia rigurosa y un equipo humano excepcional. Con ética, innovación y calidad, transformamos la salud y posicionamos nuestro laboratorio como referente dentro y fuera de fronteras.
             </p>
           </div>
           <div className="bg-primary/5 p-8 rounded-lg shadow-md">
             <Eye className="h-12 w-12 text-primary mx-auto md:mx-0 mb-4" />
             <h3 className="text-2xl font-semibold text-primary mb-3 text-center md:text-left">Nuestra Visión</h3>
             <p className="text-gray-700 text-center md:text-left">
-              Ser el laboratorio clínico líder y de referencia en la región, reconocido por nuestra excelencia en calidad, innovación tecnológica y atención humana, contribuyendo activamente a la prevención y diagnóstico temprano de enfermedades.
+              En ReliableLab-Clinic proyectamos un crecimiento sólido y estratégico con metas claras. En los próximos cuatro años, nos consolidaremos como un laboratorio de alta complejidad reconocido a nivel nacional por nuestra precisión diagnóstica, eficiencia operativa y excelencia en el servicio.
+
+              Ampliaremos nuestra cobertura con ocho sedes en Colombia, garantizando acceso oportuno, procesos confiables y atención de calidad. Aspiramos a ser líderes en el apoyo al diagnóstico médico, respaldados por un equipo humano calificado, comprometido con la mejora continua e impulsado por la ética, la innovación y la excelencia.
+
             </p>
           </div>
         </motion.div>

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const logoUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/b86d968a-7879-41d4-9b0a-b4bb3f4ea4fa/aee24181bde75c6000f07d9b6e4ba315.png";
   const socialLinks = {
-    facebook: "https://facebook.com/reliablelabclinic",
-    instagram: "https://instagram.com/reliablelabclinic",
+    facebook: "https://www.facebook.com/profile.php?id=61576637048138",
+    instagram: "https://www.instagram.com/reliablelab_clinic/",
   };
 
   return (
@@ -60,15 +60,15 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <Mail className="h-4 w-4 mr-3 mt-1 text-slate-400 flex-shrink-0" />
-                <a href="mailto:contacto@reliablelab-clinic.com" className="text-slate-400 hover:text-secondary transition-colors">contacto@reliablelab-clinic.com</a>
+                <a href="mailto:contacto@reliablelab-clinic.com" className="text-slate-400 hover:text-secondary transition-colors">reliablelabclinic@gmail.com</a>
               </li>
               <li className="flex items-start">
                 <Phone className="h-4 w-4 mr-3 mt-1 text-slate-400 flex-shrink-0" />
-                <a href="tel:+15551234567" className="text-slate-400 hover:text-secondary transition-colors">+1 (555) 123-4567</a>
+                <a href="tel:+15551234567" className="text-slate-400 hover:text-secondary transition-colors">+57 320 906 5503</a>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-1 text-slate-400 flex-shrink-0" />
-                <span className="text-slate-400">Av. Principal 123, Ciudad Médica, CP 12345</span>
+                <span className="text-slate-400">Carrera #7 52 - 58 Chapinero, sede Bogotá</span>
               </li>
             </ul>
           </div>
